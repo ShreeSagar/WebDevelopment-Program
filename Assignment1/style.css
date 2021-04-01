@@ -1,0 +1,24 @@
+.box {
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+}
+p:nth-of-type(2){
+    color: red;
+}
+.box:nth-child(2n+1) {
+    background-color: green;
+}
+.container :hover{
+    background-color: yellow;
+}
+.container::before,
+.container::after {
+    content: "I am created by CSS. I got padding 10px, background color orange and border 2px solid green";
+    display: block;
+    padding: 10px;
+    background-color: orange;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+}
