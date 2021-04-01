@@ -1,0 +1,27 @@
+body{
+    font-family: verdana, sans-serif;
+}
+#content{
+    font-size: 14px;
+}
+#span1{
+  color:red;  
+}
+#para2{
+    background-color: aqua;
+}
+#para3{
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+}
+#para4{
+    border-color: green;
+    border-width: 1rem;
+    border-style: solid;
+}
+#para5{
+    border-color: green;
+    border-width: 1em;
+    border-style: solid;
+}
